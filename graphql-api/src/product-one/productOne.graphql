@@ -1,0 +1,17 @@
+type ProductOne {
+    id: Int!
+    title: String!
+    description: String!
+    items: [Item!]!
+}
+
+type Item {
+    id: Int!
+    name: String!
+    productId: Int!
+}
+
+type Query {
+    productOneAll: [ProductOne]
+    productOne(id: Int!): ProductOne
+}

@@ -1,0 +1,15 @@
+{
+  "name": "gql-sandbox",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "typings:update": "ts-node ./graphql-api/generate-typings.ts && ts-node update-typings.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "ts-node": "^10.4.0"
+  }
+}
